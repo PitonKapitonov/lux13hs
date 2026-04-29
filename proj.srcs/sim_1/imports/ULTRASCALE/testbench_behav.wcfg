@@ -1,0 +1,2608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="320,191.353 ns"></ZoomStartTime>
+      <ZoomEndTime time="323,075.354 ns"></ZoomEndTime>
+      <Cursor1Time time="322,594.687 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="328"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="group2556" type="group">
+      <obj_property name="label">read</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/CH_p" type="array">
+         <obj_property name="ElementShortName">CH_p[79:0]</obj_property>
+         <obj_property name="ObjectShortName">CH_p[79:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/CH_n" type="array">
+         <obj_property name="ElementShortName">CH_n[79:0]</obj_property>
+         <obj_property name="ObjectShortName">CH_n[79:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/clk_lux" type="logic">
+         <obj_property name="ElementShortName">clk_lux</obj_property>
+         <obj_property name="ObjectShortName">clk_lux</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Pclk_p" type="logic">
+         <obj_property name="ElementShortName">Pclk_p</obj_property>
+         <obj_property name="ObjectShortName">Pclk_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Pclk_x4_shifted" type="logic">
+         <obj_property name="ElementShortName">Pclk_x4_shifted</obj_property>
+         <obj_property name="ObjectShortName">Pclk_x4_shifted</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/st_readb_n" type="logic">
+         <obj_property name="ElementShortName">st_readb_n</obj_property>
+         <obj_property name="ObjectShortName">st_readb_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/st_readt_n" type="logic">
+         <obj_property name="ElementShortName">st_readt_n</obj_property>
+         <obj_property name="ObjectShortName">st_readt_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/st_rowb_n" type="logic">
+         <obj_property name="ElementShortName">st_rowb_n</obj_property>
+         <obj_property name="ObjectShortName">st_rowb_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/st_rowt_n" type="logic">
+         <obj_property name="ElementShortName">st_rowt_n</obj_property>
+         <obj_property name="ObjectShortName">st_rowt_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address" type="array">
+         <obj_property name="ElementShortName">row_address[8:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_top" type="array">
+         <obj_property name="ElementShortName">row_address_top[8:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_top[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_bot" type="array">
+         <obj_property name="ElementShortName">row_address_bot[8:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_bot[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_bot_strb_del" type="logic">
+         <obj_property name="ElementShortName">enable_read_bot_strb_del</obj_property>
+         <obj_property name="ObjectShortName">enable_read_bot_strb_del</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/read_bot_locked" type="logic">
+         <obj_property name="ElementShortName">read_bot_locked</obj_property>
+         <obj_property name="ObjectShortName">read_bot_locked</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/read_top_locked" type="logic">
+         <obj_property name="ElementShortName">read_top_locked</obj_property>
+         <obj_property name="ObjectShortName">read_top_locked</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/clk200" type="logic">
+         <obj_property name="ElementShortName">clk200</obj_property>
+         <obj_property name="ObjectShortName">clk200</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/clk300" type="logic">
+         <obj_property name="ElementShortName">clk300</obj_property>
+         <obj_property name="ObjectShortName">clk300</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sending_data_active" type="logic">
+         <obj_property name="ElementShortName">sending_data_active</obj_property>
+         <obj_property name="ObjectShortName">sending_data_active</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/s_axis_tdata_udp" type="array">
+         <obj_property name="ElementShortName">s_axis_tdata_udp[7:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tdata_udp[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/s_axis_tvalid_udp" type="logic">
+         <obj_property name="ElementShortName">s_axis_tvalid_udp</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tvalid_udp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/s_axis_tlast_udp" type="logic">
+         <obj_property name="ElementShortName">s_axis_tlast_udp</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tlast_udp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/s_axis_tready_udp" type="logic">
+         <obj_property name="ElementShortName">s_axis_tready_udp</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tready_udp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/clk_read_fifo" type="logic">
+         <obj_property name="ElementShortName">clk_read_fifo</obj_property>
+         <obj_property name="ObjectShortName">clk_read_fifo</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_done" type="logic">
+         <obj_property name="ElementShortName">row_done</obj_property>
+         <obj_property name="ObjectShortName">row_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/CH_bufds" type="array">
+         <obj_property name="ElementShortName">CH_bufds[79:0]</obj_property>
+         <obj_property name="ObjectShortName">CH_bufds[79:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/rst_idealy" type="logic">
+         <obj_property name="ElementShortName">rst_idealy</obj_property>
+         <obj_property name="ObjectShortName">rst_idealy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/ST0" type="array">
+         <obj_property name="ElementShortName">ST0[0:79]</obj_property>
+         <obj_property name="ObjectShortName">ST0[0:79]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/ST1" type="array">
+         <obj_property name="ElementShortName">ST1[0:79]</obj_property>
+         <obj_property name="ObjectShortName">ST1[0:79]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/CH_idelay" type="array">
+         <obj_property name="ElementShortName">CH_idelay[79:0]</obj_property>
+         <obj_property name="ObjectShortName">CH_idelay[79:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/CH_data_bot_q" type="array">
+         <obj_property name="ElementShortName">CH_data_bot_q[39:0]</obj_property>
+         <obj_property name="ObjectShortName">CH_data_bot_q[39:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/D_togl_bot" type="array">
+         <obj_property name="ElementShortName">D_togl_bot[0:39]</obj_property>
+         <obj_property name="ObjectShortName">D_togl_bot[0:39]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/cnt_bot_Pclk" type="array">
+         <obj_property name="ElementShortName">cnt_bot_Pclk[9:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bot_Pclk[9:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_bot" type="array">
+         <obj_property name="ElementShortName">sample_left_bot[0:3][1:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_bot[0:3][1:0][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot" type="array">
+         <obj_property name="ElementShortName">sample_right_bot[0:3][1:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot[0:3][1:0][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_bot" type="array">
+         <obj_property name="ElementShortName">X_left_bot[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_left_bot[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_right_bot" type="array">
+         <obj_property name="ElementShortName">X_right_bot[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_right_bot[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_bot" type="logic">
+         <obj_property name="ElementShortName">enable_read_bot</obj_property>
+         <obj_property name="ObjectShortName">enable_read_bot</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_bot_qqq" type="logic">
+         <obj_property name="ElementShortName">enable_read_bot_qqq</obj_property>
+         <obj_property name="ObjectShortName">enable_read_bot_qqq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_top" type="logic">
+         <obj_property name="ElementShortName">enable_read_top</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_bot_buf1" type="array">
+         <obj_property name="ElementShortName">sample_left_bot_buf1[0:24][0:3][1:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_bot_buf1[0:24][0:3][1:0][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1[0:24][0:3][1:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1[0:24][0:3][1:0][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top" type="array">
+         <obj_property name="ElementShortName">sample_left_top[0:3][1:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top[0:3][1:0][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top" type="array">
+         <obj_property name="ElementShortName">sample_right_top[0:3][1:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top[0:3][1:0][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_top" type="array">
+         <obj_property name="ElementShortName">X_left_top[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_left_top[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_right_top" type="array">
+         <obj_property name="ElementShortName">X_right_top[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_right_top[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_q" type="array">
+         <obj_property name="ElementShortName">sample_left_top_q[3:0][1:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_q[3:0][1:0][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_q" type="array">
+         <obj_property name="ElementShortName">sample_right_top_q[3:0][1:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_q[3:0][1:0][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_qq" type="array">
+         <obj_property name="ElementShortName">sample_left_top_qq[3:0][1:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_qq[3:0][1:0][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_qq" type="array">
+         <obj_property name="ElementShortName">sample_right_top_qq[3:0][1:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_qq[3:0][1:0][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1[0:24][0:3][1:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1[0:24][0:3][1:0][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1[0:24][0:3][1:0][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1[0:24][0:3][1:0][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_bot_Pclk" type="array">
+         <obj_property name="ElementShortName">cnt_bot_Pclk[9:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bot_Pclk[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_bot_enable" type="logic">
+         <obj_property name="ElementShortName">cnt_bot_enable</obj_property>
+         <obj_property name="ObjectShortName">cnt_bot_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_bot_enable2" type="logic">
+         <obj_property name="ElementShortName">cnt_bot_enable2</obj_property>
+         <obj_property name="ObjectShortName">cnt_bot_enable2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_bot_enable2_q" type="logic">
+         <obj_property name="ElementShortName">cnt_bot_enable2_q</obj_property>
+         <obj_property name="ObjectShortName">cnt_bot_enable2_q</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_bot_enable_q" type="logic">
+         <obj_property name="ElementShortName">cnt_bot_enable_q</obj_property>
+         <obj_property name="ObjectShortName">cnt_bot_enable_q</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_top_Pclk" type="array">
+         <obj_property name="ElementShortName">cnt_top_Pclk[9:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_top_Pclk[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_top_Pclk_real" type="array">
+         <obj_property name="ElementShortName">cnt_top_Pclk_real[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_top_Pclk_real[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/D_cnt_bot" type="array">
+         <obj_property name="ElementShortName">D_cnt_bot[0:24][1:0]</obj_property>
+         <obj_property name="ObjectShortName">D_cnt_bot[0:24][1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/D_cnt_top" type="array">
+         <obj_property name="ElementShortName">D_cnt_top[0:24][1:0]</obj_property>
+         <obj_property name="ObjectShortName">D_cnt_top[0:24][1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_bot_Pclk_real" type="array">
+         <obj_property name="ElementShortName">cnt_bot_Pclk_real[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bot_Pclk_real[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_top_Pclk_real_shifted" type="array">
+         <obj_property name="ElementShortName">cnt_top_Pclk_real_shifted[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_top_Pclk_real_shifted[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_bot_Pclk_real_shifted" type="array">
+         <obj_property name="ElementShortName">cnt_bot_Pclk_real_shifted[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bot_Pclk_real_shifted[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_cnt_delay_bot" type="array">
+         <obj_property name="ElementShortName">enable_cnt_delay_bot[1:0]</obj_property>
+         <obj_property name="ObjectShortName">enable_cnt_delay_bot[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_cnt_delay_top" type="array">
+         <obj_property name="ElementShortName">enable_cnt_delay_top[1:0]</obj_property>
+         <obj_property name="ObjectShortName">enable_cnt_delay_top[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_delay_bot" type="array">
+         <obj_property name="ElementShortName">cnt_delay_bot[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_delay_bot[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_delay_top" type="array">
+         <obj_property name="ElementShortName">cnt_delay_top[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_delay_top[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_bot_del" type="logic">
+         <obj_property name="ElementShortName">enable_read_bot_del</obj_property>
+         <obj_property name="ObjectShortName">enable_read_bot_del</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_top_del" type="logic">
+         <obj_property name="ElementShortName">enable_read_top_del</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top_del</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_top_del2" type="logic">
+         <obj_property name="ElementShortName">enable_read_top_del2</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top_del2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_top_del3" type="logic">
+         <obj_property name="ElementShortName">enable_read_top_del3</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top_del3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_bot_strb" type="logic">
+         <obj_property name="ElementShortName">enable_read_bot_strb</obj_property>
+         <obj_property name="ObjectShortName">enable_read_bot_strb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_top_strb" type="logic">
+         <obj_property name="ElementShortName">enable_read_top_strb</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top_strb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/read_ram_b_en" type="logic">
+         <obj_property name="ElementShortName">read_ram_b_en</obj_property>
+         <obj_property name="ObjectShortName">read_ram_b_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/read_finished" type="logic">
+         <obj_property name="ElementShortName">read_finished</obj_property>
+         <obj_property name="ObjectShortName">read_finished</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_top_enable" type="logic">
+         <obj_property name="ElementShortName">cnt_top_enable</obj_property>
+         <obj_property name="ObjectShortName">cnt_top_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_top_enable2" type="logic">
+         <obj_property name="ElementShortName">cnt_top_enable2</obj_property>
+         <obj_property name="ObjectShortName">cnt_top_enable2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_top_enable2_q" type="logic">
+         <obj_property name="ElementShortName">cnt_top_enable2_q</obj_property>
+         <obj_property name="ObjectShortName">cnt_top_enable2_q</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_top_enable_q" type="logic">
+         <obj_property name="ElementShortName">cnt_top_enable_q</obj_property>
+         <obj_property name="ObjectShortName">cnt_top_enable_q</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/D_togl_top" type="array">
+         <obj_property name="ElementShortName">D_togl_top[0:39]</obj_property>
+         <obj_property name="ObjectShortName">D_togl_top[0:39]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/D_cnt_top_q" type="array">
+         <obj_property name="ElementShortName">D_cnt_top_q[1:0]</obj_property>
+         <obj_property name="ObjectShortName">D_cnt_top_q[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/D_cnt_top_qq" type="array">
+         <obj_property name="ElementShortName">D_cnt_top_qq[1:0]</obj_property>
+         <obj_property name="ObjectShortName">D_cnt_top_qq[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/column_reg_bot" type="array">
+         <obj_property name="ElementShortName">column_reg_bot[0:39][10:0]</obj_property>
+         <obj_property name="ObjectShortName">column_reg_bot[0:39][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_offset_reg_bot" type="array">
+         <obj_property name="ElementShortName">row_offset_reg_bot[0:39]</obj_property>
+         <obj_property name="ObjectShortName">row_offset_reg_bot[0:39]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/bit_number_reg_bot" type="array">
+         <obj_property name="ElementShortName">bit_number_reg_bot[0:39][3:0]</obj_property>
+         <obj_property name="ObjectShortName">bit_number_reg_bot[0:39][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/column_dynamic_offset_bot" type="array">
+         <obj_property name="ElementShortName">column_dynamic_offset_bot[10:0]</obj_property>
+         <obj_property name="ObjectShortName">column_dynamic_offset_bot[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/column_reg_top" type="array">
+         <obj_property name="ElementShortName">column_reg_top[0:39][10:0]</obj_property>
+         <obj_property name="ObjectShortName">column_reg_top[0:39][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_offset_reg_top" type="array">
+         <obj_property name="ElementShortName">row_offset_reg_top[0:39]</obj_property>
+         <obj_property name="ObjectShortName">row_offset_reg_top[0:39]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/bit_number_reg_top" type="array">
+         <obj_property name="ElementShortName">bit_number_reg_top[0:39][3:0]</obj_property>
+         <obj_property name="ObjectShortName">bit_number_reg_top[0:39][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/column_dynamic_offset_top" type="array">
+         <obj_property name="ElementShortName">column_dynamic_offset_top[10:0]</obj_property>
+         <obj_property name="ObjectShortName">column_dynamic_offset_top[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/CH_data_top_q" type="array">
+         <obj_property name="ElementShortName">CH_data_top_q[39:0]</obj_property>
+         <obj_property name="ObjectShortName">CH_data_top_q[39:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/CH_data_bot_qq" type="array">
+         <obj_property name="ElementShortName">CH_data_bot_qq[39:0]</obj_property>
+         <obj_property name="ObjectShortName">CH_data_bot_qq[39:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/CH_data_top_qq" type="array">
+         <obj_property name="ElementShortName">CH_data_top_qq[39:0]</obj_property>
+         <obj_property name="ObjectShortName">CH_data_top_qq[39:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_bot_q" type="logic">
+         <obj_property name="ElementShortName">enable_read_bot_q</obj_property>
+         <obj_property name="ObjectShortName">enable_read_bot_q</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_top_q" type="logic">
+         <obj_property name="ElementShortName">enable_read_top_q</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top_q</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_bot_qq" type="logic">
+         <obj_property name="ElementShortName">enable_read_bot_qq</obj_property>
+         <obj_property name="ObjectShortName">enable_read_bot_qq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_top_qq" type="logic">
+         <obj_property name="ElementShortName">enable_read_top_qq</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top_qq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_top_qqq" type="logic">
+         <obj_property name="ElementShortName">enable_read_top_qqq</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top_qqq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_top_qqqq" type="logic">
+         <obj_property name="ElementShortName">enable_read_top_qqqq</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top_qqqq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/enable_read_top_qqqqq" type="logic">
+         <obj_property name="ElementShortName">enable_read_top_qqqqq</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top_qqqqq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_top_Pclk_real_shifted_q" type="array">
+         <obj_property name="ElementShortName">cnt_top_Pclk_real_shifted_q[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_top_Pclk_real_shifted_q[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_bot_Pclk_real_shifted_q" type="array">
+         <obj_property name="ElementShortName">cnt_bot_Pclk_real_shifted_q[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bot_Pclk_real_shifted_q[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_top_Pclk_real_shifted_qq" type="array">
+         <obj_property name="ElementShortName">cnt_top_Pclk_real_shifted_qq[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_top_Pclk_real_shifted_qq[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_top_Pclk_real_shifted_qqq" type="array">
+         <obj_property name="ElementShortName">cnt_top_Pclk_real_shifted_qqq[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_top_Pclk_real_shifted_qqq[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_top_Pclk_real_shifted_qqqq" type="array">
+         <obj_property name="ElementShortName">cnt_top_Pclk_real_shifted_qqqq[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_top_Pclk_real_shifted_qqqq[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_bot_Pclk_real_shifted_qq" type="array">
+         <obj_property name="ElementShortName">cnt_bot_Pclk_real_shifted_qq[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bot_Pclk_real_shifted_qq[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_ready_bot" type="array">
+         <obj_property name="ElementShortName">sample_ready_bot[4:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_ready_bot[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_ready_top" type="array">
+         <obj_property name="ElementShortName">sample_ready_top[4:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_ready_top[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_ready_bot_q" type="logic">
+         <obj_property name="ElementShortName">sample_ready_bot_q</obj_property>
+         <obj_property name="ObjectShortName">sample_ready_bot_q</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_ready_top_q" type="logic">
+         <obj_property name="ElementShortName">sample_ready_top_q</obj_property>
+         <obj_property name="ObjectShortName">sample_ready_top_q</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_ready_bot_qq" type="logic">
+         <obj_property name="ElementShortName">sample_ready_bot_qq</obj_property>
+         <obj_property name="ObjectShortName">sample_ready_bot_qq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_ready_top_qq" type="logic">
+         <obj_property name="ElementShortName">sample_ready_top_qq</obj_property>
+         <obj_property name="ObjectShortName">sample_ready_top_qq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Sample_cnt_left_bot" type="array">
+         <obj_property name="ElementShortName">Sample_cnt_left_bot[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">Sample_cnt_left_bot[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Sample_cnt_right_bot" type="array">
+         <obj_property name="ElementShortName">Sample_cnt_right_bot[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">Sample_cnt_right_bot[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Sample_cnt_left_top" type="array">
+         <obj_property name="ElementShortName">Sample_cnt_left_top[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">Sample_cnt_left_top[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Sample_cnt_right_top" type="array">
+         <obj_property name="ElementShortName">Sample_cnt_right_top[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">Sample_cnt_right_top[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_bot_0_arr" type="array">
+         <obj_property name="ElementShortName">active_row_bot_0_arr[24:0]</obj_property>
+         <obj_property name="ObjectShortName">active_row_bot_0_arr[24:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_bot_1_arr" type="array">
+         <obj_property name="ElementShortName">active_row_bot_1_arr[24:0]</obj_property>
+         <obj_property name="ObjectShortName">active_row_bot_1_arr[24:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_top_0_arr" type="array">
+         <obj_property name="ElementShortName">active_row_top_0_arr[24:0]</obj_property>
+         <obj_property name="ObjectShortName">active_row_top_0_arr[24:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_top_1_arr" type="array">
+         <obj_property name="ElementShortName">active_row_top_1_arr[24:0]</obj_property>
+         <obj_property name="ObjectShortName">active_row_top_1_arr[24:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_bot_0" type="logic">
+         <obj_property name="ElementShortName">active_row_bot_0</obj_property>
+         <obj_property name="ObjectShortName">active_row_bot_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_bot_1" type="logic">
+         <obj_property name="ElementShortName">active_row_bot_1</obj_property>
+         <obj_property name="ObjectShortName">active_row_bot_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_top_0" type="logic">
+         <obj_property name="ElementShortName">active_row_top_0</obj_property>
+         <obj_property name="ObjectShortName">active_row_top_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_top_1" type="logic">
+         <obj_property name="ElementShortName">active_row_top_1</obj_property>
+         <obj_property name="ObjectShortName">active_row_top_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_bot_0_pre" type="logic">
+         <obj_property name="ElementShortName">active_row_bot_0_pre</obj_property>
+         <obj_property name="ObjectShortName">active_row_bot_0_pre</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_bot_1_pre" type="logic">
+         <obj_property name="ElementShortName">active_row_bot_1_pre</obj_property>
+         <obj_property name="ObjectShortName">active_row_bot_1_pre</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_top_0_pre" type="logic">
+         <obj_property name="ElementShortName">active_row_top_0_pre</obj_property>
+         <obj_property name="ObjectShortName">active_row_top_0_pre</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_top_1_pre" type="logic">
+         <obj_property name="ElementShortName">active_row_top_1_pre</obj_property>
+         <obj_property name="ObjectShortName">active_row_top_1_pre</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_pre" type="logic">
+         <obj_property name="ElementShortName">active_row_pre</obj_property>
+         <obj_property name="ObjectShortName">active_row_pre</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row" type="logic">
+         <obj_property name="ElementShortName">active_row</obj_property>
+         <obj_property name="ObjectShortName">active_row</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_del" type="logic">
+         <obj_property name="ElementShortName">active_row_del</obj_property>
+         <obj_property name="ObjectShortName">active_row_del</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/temp_r_rep" type="array">
+         <obj_property name="ElementShortName">temp_r_rep[0:24][4:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_r_rep[0:24][4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/temp_r_rep_1" type="array">
+         <obj_property name="ElementShortName">temp_r_rep_1[0:24][4:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_r_rep_1[0:24][4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Y_coor_top_edge" type="array">
+         <obj_property name="ElementShortName">Y_coor_top_edge[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Y_coor_top_edge[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Y_coor_bot_edge" type="array">
+         <obj_property name="ElementShortName">Y_coor_bot_edge[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Y_coor_bot_edge[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Y_coor_top_edge_bot_0_check" type="logic">
+         <obj_property name="ElementShortName">Y_coor_top_edge_bot_0_check</obj_property>
+         <obj_property name="ObjectShortName">Y_coor_top_edge_bot_0_check</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Y_coor_bot_edge_bot_0_check" type="logic">
+         <obj_property name="ElementShortName">Y_coor_bot_edge_bot_0_check</obj_property>
+         <obj_property name="ObjectShortName">Y_coor_bot_edge_bot_0_check</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Y_coor_top_edge_bot_1_check" type="logic">
+         <obj_property name="ElementShortName">Y_coor_top_edge_bot_1_check</obj_property>
+         <obj_property name="ObjectShortName">Y_coor_top_edge_bot_1_check</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Y_coor_bot_edge_bot_1_check" type="logic">
+         <obj_property name="ElementShortName">Y_coor_bot_edge_bot_1_check</obj_property>
+         <obj_property name="ObjectShortName">Y_coor_bot_edge_bot_1_check</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Y_coor_top_edge_top_0_check" type="logic">
+         <obj_property name="ElementShortName">Y_coor_top_edge_top_0_check</obj_property>
+         <obj_property name="ObjectShortName">Y_coor_top_edge_top_0_check</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Y_coor_bot_edge_top_0_check" type="logic">
+         <obj_property name="ElementShortName">Y_coor_bot_edge_top_0_check</obj_property>
+         <obj_property name="ObjectShortName">Y_coor_bot_edge_top_0_check</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Y_coor_top_edge_top_1_check" type="logic">
+         <obj_property name="ElementShortName">Y_coor_top_edge_top_1_check</obj_property>
+         <obj_property name="ObjectShortName">Y_coor_top_edge_top_1_check</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Y_coor_bot_edge_top_1_check" type="logic">
+         <obj_property name="ElementShortName">Y_coor_bot_edge_top_1_check</obj_property>
+         <obj_property name="ObjectShortName">Y_coor_bot_edge_top_1_check</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/temp_r_active_row_check" type="array">
+         <obj_property name="ElementShortName">temp_r_active_row_check[4:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_r_active_row_check[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_bot_rep" type="array">
+         <obj_property name="ElementShortName">X_left_bot_rep[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_left_bot_rep[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_right_bot_rep" type="array">
+         <obj_property name="ElementShortName">X_right_bot_rep[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_right_bot_rep[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_bot_right_side_check" type="array">
+         <obj_property name="ElementShortName">X_left_bot_right_side_check[0:24]</obj_property>
+         <obj_property name="ObjectShortName">X_left_bot_right_side_check[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_bot_left_side_check" type="array">
+         <obj_property name="ElementShortName">X_left_bot_left_side_check[0:24]</obj_property>
+         <obj_property name="ObjectShortName">X_left_bot_left_side_check[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_bot_rep_q" type="array">
+         <obj_property name="ElementShortName">X_left_bot_rep_q[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_left_bot_rep_q[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_right_bot_rep_q" type="array">
+         <obj_property name="ElementShortName">X_right_bot_rep_q[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_right_bot_rep_q[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_top_rep_q" type="array">
+         <obj_property name="ElementShortName">X_left_top_rep_q[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_left_top_rep_q[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_right_top_rep_q" type="array">
+         <obj_property name="ElementShortName">X_right_top_rep_q[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_right_top_rep_q[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_bot_rep_qq" type="array">
+         <obj_property name="ElementShortName">X_left_bot_rep_qq[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_left_bot_rep_qq[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_right_bot_rep_qq" type="array">
+         <obj_property name="ElementShortName">X_right_bot_rep_qq[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_right_bot_rep_qq[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_top_rep_qq" type="array">
+         <obj_property name="ElementShortName">X_left_top_rep_qq[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_left_top_rep_qq[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_right_top_rep_qq" type="array">
+         <obj_property name="ElementShortName">X_right_top_rep_qq[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_right_top_rep_qq[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_right_bot_rep_qqq" type="array">
+         <obj_property name="ElementShortName">X_right_bot_rep_qqq[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_right_bot_rep_qqq[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_top_rep_qqq" type="array">
+         <obj_property name="ElementShortName">X_left_top_rep_qqq[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_left_top_rep_qqq[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_bot_buf1_0_rep" type="array">
+         <obj_property name="ElementShortName">sample_left_bot_buf1_0_rep[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_bot_buf1_0_rep[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_bot_buf1_1_rep" type="array">
+         <obj_property name="ElementShortName">sample_left_bot_buf1_1_rep[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_bot_buf1_1_rep[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1_0_rep" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1_0_rep[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1_0_rep[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1_1_rep" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1_1_rep[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1_1_rep[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_0_rep" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_0_rep[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_0_rep[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_1_rep" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_1_rep[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_1_rep[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_0_rep" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_0_rep[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_0_rep[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_1_rep" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_1_rep[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_1_rep[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_bot_buf1_0_rep_q" type="array">
+         <obj_property name="ElementShortName">sample_left_bot_buf1_0_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_bot_buf1_0_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_bot_buf1_1_rep_q" type="array">
+         <obj_property name="ElementShortName">sample_left_bot_buf1_1_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_bot_buf1_1_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1_0_rep_q" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1_0_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1_0_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1_1_rep_q" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1_1_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1_1_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_0_rep_q" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_0_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_0_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_1_rep_q" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_1_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_1_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_0_rep_q" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_0_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_0_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_1_rep_q" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_1_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_1_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_bot_buf1_1_rep_qq" type="array">
+         <obj_property name="ElementShortName">sample_left_bot_buf1_1_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_bot_buf1_1_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_bot_buf1_0_rep_qq" type="array">
+         <obj_property name="ElementShortName">sample_left_bot_buf1_0_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_bot_buf1_0_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/mask_left_bot_0" type="array">
+         <obj_property name="ElementShortName">mask_left_bot_0[0:24]</obj_property>
+         <obj_property name="ObjectShortName">mask_left_bot_0[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/mask_left_bot_1" type="array">
+         <obj_property name="ElementShortName">mask_left_bot_1[0:24]</obj_property>
+         <obj_property name="ObjectShortName">mask_left_bot_1[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1_0_rep_qq" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1_0_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1_0_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1_1_rep_qq" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1_1_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1_1_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_0_rep_qq" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_0_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_0_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_1_rep_qq" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_1_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_1_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_0_rep_qq" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_0_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_0_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_1_rep_qq" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_1_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_1_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1_0_rep_qq_msk_X" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1_0_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1_0_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1_1_rep_qq_msk_X" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1_1_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1_1_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1_0_rep_qq_msk_X_q" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1_0_rep_qq_msk_X_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1_0_rep_qq_msk_X_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1_1_rep_qq_msk_X_q" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1_1_rep_qq_msk_X_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1_1_rep_qq_msk_X_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_0_rep_qq_msk_X" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_0_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_0_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF0080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_1_rep_qq_msk_X" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_1_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_1_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF0080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_0_rep_qq_msk_X_q" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_0_rep_qq_msk_X_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_0_rep_qq_msk_X_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_1_rep_qq_msk_X_q" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_1_rep_qq_msk_X_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_1_rep_qq_msk_X_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_0_rep_qq_msk_X_qq" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_0_rep_qq_msk_X_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_0_rep_qq_msk_X_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_1_rep_qq_msk_X_qq" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_1_rep_qq_msk_X_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_1_rep_qq_msk_X_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_top_rep_qqq_3_2" type="array">
+         <obj_property name="ElementShortName">X_left_top_rep_qqq_3_2[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_left_top_rep_qqq_3_2[0:24][10:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_0_rep_qq_msk_X" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_0_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_0_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_1_rep_qq_msk_X" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_1_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_1_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_0_rep_qq_msk_X_q" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_0_rep_qq_msk_X_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_0_rep_qq_msk_X_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_1_rep_qq_msk_X_q" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_1_rep_qq_msk_X_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_1_rep_qq_msk_X_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_0_rep_qq_msk_X_qq" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_0_rep_qq_msk_X_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_0_rep_qq_msk_X_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_1_rep_qq_msk_X_qq" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_1_rep_qq_msk_X_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_1_rep_qq_msk_X_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_0_rep_qq_msk_X_qqq" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_0_rep_qq_msk_X_qqq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_0_rep_qq_msk_X_qqq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_1_rep_qq_msk_X_qqq" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_1_rep_qq_msk_X_qqq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_1_rep_qq_msk_X_qqq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_right_top_rep_qqq" type="array">
+         <obj_property name="ElementShortName">X_right_top_rep_qqq[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_right_top_rep_qqq[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1_1_rep_qq_msk_Y" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1_1_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1_1_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1_0_rep_qq_msk_Y" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1_0_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1_0_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1_1_rep_qq_msk_Y_q" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1_1_rep_qq_msk_Y_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1_1_rep_qq_msk_Y_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_bot_buf1_0_rep_qq_msk_Y_q" type="array">
+         <obj_property name="ElementShortName">sample_right_bot_buf1_0_rep_qq_msk_Y_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_bot_buf1_0_rep_qq_msk_Y_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_0_rep_qq_msk_Y" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_0_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_0_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_1_rep_qq_msk_Y" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_1_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_1_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_1_rep_qq_msk_Y_q" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_1_rep_qq_msk_Y_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_1_rep_qq_msk_Y_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_0_rep_qq_msk_Y_q" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_0_rep_qq_msk_Y_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_0_rep_qq_msk_Y_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_1_rep_qq_msk_Y_qq" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_1_rep_qq_msk_Y_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_1_rep_qq_msk_Y_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_top_buf1_0_rep_qq_msk_Y_qq" type="array">
+         <obj_property name="ElementShortName">sample_left_top_buf1_0_rep_qq_msk_Y_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_top_buf1_0_rep_qq_msk_Y_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_0_rep_qq_msk_Y" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_0_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_0_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_1_rep_qq_msk_Y" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_1_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_1_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_1_rep_qq_msk_Y_q" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_1_rep_qq_msk_Y_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_1_rep_qq_msk_Y_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_0_rep_qq_msk_Y_q" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_0_rep_qq_msk_Y_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_0_rep_qq_msk_Y_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_1_rep_qq_msk_Y_qq" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_1_rep_qq_msk_Y_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_1_rep_qq_msk_Y_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_0_rep_qq_msk_Y_qq" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_0_rep_qq_msk_Y_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_0_rep_qq_msk_Y_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_0_rep_qq_msk_Y_qqq" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_0_rep_qq_msk_Y_qqq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_0_rep_qq_msk_Y_qqq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_right_top_buf1_1_rep_qq_msk_Y_qqq" type="array">
+         <obj_property name="ElementShortName">sample_right_top_buf1_1_rep_qq_msk_Y_qqq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_right_top_buf1_1_rep_qq_msk_Y_qqq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/mask_right_bot_0" type="array">
+         <obj_property name="ElementShortName">mask_right_bot_0[0:24]</obj_property>
+         <obj_property name="ObjectShortName">mask_right_bot_0[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/mask_right_bot_1" type="array">
+         <obj_property name="ElementShortName">mask_right_bot_1[0:24]</obj_property>
+         <obj_property name="ObjectShortName">mask_right_bot_1[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/mask_left_top_0" type="array">
+         <obj_property name="ElementShortName">mask_left_top_0[0:24]</obj_property>
+         <obj_property name="ObjectShortName">mask_left_top_0[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/mask_left_top_1" type="array">
+         <obj_property name="ElementShortName">mask_left_top_1[0:24]</obj_property>
+         <obj_property name="ObjectShortName">mask_left_top_1[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/mask_right_top_0" type="array">
+         <obj_property name="ElementShortName">mask_right_top_0[0:24]</obj_property>
+         <obj_property name="ObjectShortName">mask_right_top_0[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/mask_right_top_1" type="array">
+         <obj_property name="ElementShortName">mask_right_top_1[0:24]</obj_property>
+         <obj_property name="ObjectShortName">mask_right_top_1[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/q_mask_left_bot_0" type="array">
+         <obj_property name="ElementShortName">q_mask_left_bot_0[0:24]</obj_property>
+         <obj_property name="ObjectShortName">q_mask_left_bot_0[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/q_mask_left_bot_1" type="array">
+         <obj_property name="ElementShortName">q_mask_left_bot_1[0:24]</obj_property>
+         <obj_property name="ObjectShortName">q_mask_left_bot_1[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/q_mask_right_bot_0" type="array">
+         <obj_property name="ElementShortName">q_mask_right_bot_0[0:24]</obj_property>
+         <obj_property name="ObjectShortName">q_mask_right_bot_0[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/q_mask_right_bot_1" type="array">
+         <obj_property name="ElementShortName">q_mask_right_bot_1[0:24]</obj_property>
+         <obj_property name="ObjectShortName">q_mask_right_bot_1[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/q_mask_left_top_0" type="array">
+         <obj_property name="ElementShortName">q_mask_left_top_0[0:24]</obj_property>
+         <obj_property name="ObjectShortName">q_mask_left_top_0[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/q_mask_left_top_1" type="array">
+         <obj_property name="ElementShortName">q_mask_left_top_1[0:24]</obj_property>
+         <obj_property name="ObjectShortName">q_mask_left_top_1[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/q_mask_right_top_0" type="array">
+         <obj_property name="ElementShortName">q_mask_right_top_0[0:24]</obj_property>
+         <obj_property name="ObjectShortName">q_mask_right_top_0[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/q_mask_right_top_1" type="array">
+         <obj_property name="ElementShortName">q_mask_right_top_1[0:24]</obj_property>
+         <obj_property name="ObjectShortName">q_mask_right_top_1[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_left_bot_0" type="array">
+         <obj_property name="ElementShortName">sum_I_part_left_bot_0[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_left_bot_0[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_left_bot_1" type="array">
+         <obj_property name="ElementShortName">sum_I_part_left_bot_1[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_left_bot_1[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_right_bot_0" type="array">
+         <obj_property name="ElementShortName">sum_I_part_right_bot_0[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_right_bot_0[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_right_bot_1" type="array">
+         <obj_property name="ElementShortName">sum_I_part_right_bot_1[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_right_bot_1[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_right_bot_0_q" type="array">
+         <obj_property name="ElementShortName">sum_I_part_right_bot_0_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_right_bot_0_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_right_bot_1_q" type="array">
+         <obj_property name="ElementShortName">sum_I_part_right_bot_1_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_right_bot_1_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_left_top_0" type="array">
+         <obj_property name="ElementShortName">sum_I_part_left_top_0[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_left_top_0[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_left_top_1" type="array">
+         <obj_property name="ElementShortName">sum_I_part_left_top_1[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_left_top_1[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_left_top_0_q" type="array">
+         <obj_property name="ElementShortName">sum_I_part_left_top_0_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_left_top_0_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_left_top_1_q" type="array">
+         <obj_property name="ElementShortName">sum_I_part_left_top_1_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_left_top_1_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_left_top_0_qq" type="array">
+         <obj_property name="ElementShortName">sum_I_part_left_top_0_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_left_top_0_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_left_top_1_qq" type="array">
+         <obj_property name="ElementShortName">sum_I_part_left_top_1_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_left_top_1_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_right_top_0" type="array">
+         <obj_property name="ElementShortName">sum_I_part_right_top_0[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_right_top_0[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_right_top_1" type="array">
+         <obj_property name="ElementShortName">sum_I_part_right_top_1[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_right_top_1[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_right_top_0_q" type="array">
+         <obj_property name="ElementShortName">sum_I_part_right_top_0_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_right_top_0_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_right_top_1_q" type="array">
+         <obj_property name="ElementShortName">sum_I_part_right_top_1_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_right_top_1_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_right_top_0_qq" type="array">
+         <obj_property name="ElementShortName">sum_I_part_right_top_0_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_right_top_0_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_right_top_1_qq" type="array">
+         <obj_property name="ElementShortName">sum_I_part_right_top_1_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_right_top_1_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_right_top_0_qqq" type="array">
+         <obj_property name="ElementShortName">sum_I_part_right_top_0_qqq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_right_top_0_qqq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_part_right_top_1_qqq" type="array">
+         <obj_property name="ElementShortName">sum_I_part_right_top_1_qqq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_part_right_top_1_qqq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_top_reg" type="array">
+         <obj_property name="ElementShortName">row_address_top_reg[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_top_reg[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_top_reg_rep" type="array">
+         <obj_property name="ElementShortName">row_address_top_reg_rep[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_top_reg_rep[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_bot_reg_rep" type="array">
+         <obj_property name="ElementShortName">row_address_bot_reg_rep[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_bot_reg_rep[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_bot_reg_rep_q" type="array">
+         <obj_property name="ElementShortName">row_address_bot_reg_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_bot_reg_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_bot_reg_rep_qq" type="array">
+         <obj_property name="ElementShortName">row_address_bot_reg_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_bot_reg_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_top_reg1" type="array">
+         <obj_property name="ElementShortName">row_address_top_reg1[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_top_reg1[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_bot_reg1" type="array">
+         <obj_property name="ElementShortName">row_address_bot_reg1[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_bot_reg1[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_top_reg1_rep" type="array">
+         <obj_property name="ElementShortName">row_address_top_reg1_rep[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_top_reg1_rep[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_bot_reg1_rep" type="array">
+         <obj_property name="ElementShortName">row_address_bot_reg1_rep[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_bot_reg1_rep[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_bot_reg1_rep_q" type="array">
+         <obj_property name="ElementShortName">row_address_bot_reg1_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_bot_reg1_rep_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_bot_reg1_rep_qq" type="array">
+         <obj_property name="ElementShortName">row_address_bot_reg1_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_bot_reg1_rep_qq[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_top_reg_rep1" type="array">
+         <obj_property name="ElementShortName">row_address_top_reg_rep1[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_top_reg_rep1[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_top_reg_rep1_q" type="array">
+         <obj_property name="ElementShortName">row_address_top_reg_rep1_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_top_reg_rep1_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_bot_reg_rep1" type="array">
+         <obj_property name="ElementShortName">row_address_bot_reg_rep1[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_bot_reg_rep1[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_bot_reg_rep1_q" type="array">
+         <obj_property name="ElementShortName">row_address_bot_reg_rep1_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_bot_reg_rep1_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_top_reg1_rep1" type="array">
+         <obj_property name="ElementShortName">row_address_top_reg1_rep1[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_top_reg1_rep1[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_top_reg1_rep1_q" type="array">
+         <obj_property name="ElementShortName">row_address_top_reg1_rep1_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_top_reg1_rep1_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_bot_reg1_rep1" type="array">
+         <obj_property name="ElementShortName">row_address_bot_reg1_rep1[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_bot_reg1_rep1[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_bot_reg1_rep1_q" type="array">
+         <obj_property name="ElementShortName">row_address_bot_reg1_rep1_q[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_bot_reg1_rep1_q[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor_left_edge" type="array">
+         <obj_property name="ElementShortName">X_coor_left_edge[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_coor_left_edge[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor_right_edge" type="array">
+         <obj_property name="ElementShortName">X_coor_right_edge[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_coor_right_edge[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_bot_left_side_check" type="array">
+         <obj_property name="ElementShortName">X_left_bot_left_side_check[0:24]</obj_property>
+         <obj_property name="ObjectShortName">X_left_bot_left_side_check[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_bot_right_side_check" type="array">
+         <obj_property name="ElementShortName">X_left_bot_right_side_check[0:24]</obj_property>
+         <obj_property name="ObjectShortName">X_left_bot_right_side_check[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_right_bot_left_side_check" type="array">
+         <obj_property name="ElementShortName">X_right_bot_left_side_check[0:24]</obj_property>
+         <obj_property name="ObjectShortName">X_right_bot_left_side_check[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_right_bot_right_side_check" type="array">
+         <obj_property name="ElementShortName">X_right_bot_right_side_check[0:24]</obj_property>
+         <obj_property name="ObjectShortName">X_right_bot_right_side_check[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_top_rep" type="array">
+         <obj_property name="ElementShortName">X_left_top_rep[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_left_top_rep[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_right_top_rep" type="array">
+         <obj_property name="ElementShortName">X_right_top_rep[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_right_top_rep[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_top_left_side_check" type="array">
+         <obj_property name="ElementShortName">X_left_top_left_side_check[0:24]</obj_property>
+         <obj_property name="ObjectShortName">X_left_top_left_side_check[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_top_right_side_check" type="array">
+         <obj_property name="ElementShortName">X_left_top_right_side_check[0:24]</obj_property>
+         <obj_property name="ObjectShortName">X_left_top_right_side_check[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_right_top_left_side_check" type="array">
+         <obj_property name="ElementShortName">X_right_top_left_side_check[0:24]</obj_property>
+         <obj_property name="ObjectShortName">X_right_top_left_side_check[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_right_top_right_side_check" type="array">
+         <obj_property name="ElementShortName">X_right_top_right_side_check[0:24]</obj_property>
+         <obj_property name="ObjectShortName">X_right_top_right_side_check[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_bot_0_rep" type="array">
+         <obj_property name="ElementShortName">active_row_bot_0_rep[0:24]</obj_property>
+         <obj_property name="ObjectShortName">active_row_bot_0_rep[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_bot_1_rep" type="array">
+         <obj_property name="ElementShortName">active_row_bot_1_rep[0:24]</obj_property>
+         <obj_property name="ObjectShortName">active_row_bot_1_rep[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_top_0_rep" type="array">
+         <obj_property name="ElementShortName">active_row_top_0_rep[0:24]</obj_property>
+         <obj_property name="ObjectShortName">active_row_top_0_rep[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/active_row_top_1_rep" type="array">
+         <obj_property name="ElementShortName">active_row_top_1_rep[0:24]</obj_property>
+         <obj_property name="ObjectShortName">active_row_top_1_rep[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_bot_buf1_0_rep_qq_msk_X" type="array">
+         <obj_property name="ElementShortName">sample_left_bot_buf1_0_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_bot_buf1_0_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_bot_buf1_1_rep_qq_msk_X" type="array">
+         <obj_property name="ElementShortName">sample_left_bot_buf1_1_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_bot_buf1_1_rep_qq_msk_X[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_left_bot_rep_qqq" type="array">
+         <obj_property name="ElementShortName">X_left_bot_rep_qqq[0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_left_bot_rep_qqq[0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/i_casc_01" type="array">
+         <obj_property name="ElementShortName">i_casc_01[24:0][47:0]</obj_property>
+         <obj_property name="ObjectShortName">i_casc_01[24:0][47:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/i_casc_12" type="array">
+         <obj_property name="ElementShortName">i_casc_12[24:0][47:0]</obj_property>
+         <obj_property name="ObjectShortName">i_casc_12[24:0][47:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/i_casc_23" type="array">
+         <obj_property name="ElementShortName">i_casc_23[24:0][47:0]</obj_property>
+         <obj_property name="ObjectShortName">i_casc_23[24:0][47:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/i_casc_34" type="array">
+         <obj_property name="ElementShortName">i_casc_34[24:0][47:0]</obj_property>
+         <obj_property name="ObjectShortName">i_casc_34[24:0][47:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/ix_casc_01" type="array">
+         <obj_property name="ElementShortName">ix_casc_01[24:0][47:0]</obj_property>
+         <obj_property name="ObjectShortName">ix_casc_01[24:0][47:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/ix_casc_12" type="array">
+         <obj_property name="ElementShortName">ix_casc_12[24:0][47:0]</obj_property>
+         <obj_property name="ObjectShortName">ix_casc_12[24:0][47:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/ix_casc_23" type="array">
+         <obj_property name="ElementShortName">ix_casc_23[24:0][47:0]</obj_property>
+         <obj_property name="ObjectShortName">ix_casc_23[24:0][47:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/ix_casc_34" type="array">
+         <obj_property name="ElementShortName">ix_casc_34[24:0][47:0]</obj_property>
+         <obj_property name="ObjectShortName">ix_casc_34[24:0][47:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_bot_buf1_0_rep_qq_msk_Y" type="array">
+         <obj_property name="ElementShortName">sample_left_bot_buf1_0_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_bot_buf1_0_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sample_left_bot_buf1_1_rep_qq_msk_Y" type="array">
+         <obj_property name="ElementShortName">sample_left_bot_buf1_1_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">sample_left_bot_buf1_1_rep_qq_msk_Y[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/row_address_bot_reg" type="array">
+         <obj_property name="ElementShortName">row_address_bot_reg[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_bot_reg[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/iy_casc_01" type="array">
+         <obj_property name="ElementShortName">iy_casc_01[24:0][47:0]</obj_property>
+         <obj_property name="ObjectShortName">iy_casc_01[24:0][47:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/iy_casc_12" type="array">
+         <obj_property name="ElementShortName">iy_casc_12[24:0][47:0]</obj_property>
+         <obj_property name="ObjectShortName">iy_casc_12[24:0][47:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/iy_casc_23" type="array">
+         <obj_property name="ElementShortName">iy_casc_23[24:0][47:0]</obj_property>
+         <obj_property name="ObjectShortName">iy_casc_23[24:0][47:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/iy_casc_34" type="array">
+         <obj_property name="ElementShortName">iy_casc_34[24:0][47:0]</obj_property>
+         <obj_property name="ObjectShortName">iy_casc_34[24:0][47:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/temp_r" type="array">
+         <obj_property name="ElementShortName">temp_r[4:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_r[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[0].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[0].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[0].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[1].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[1].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[1].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[2].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[2].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[2].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[3].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[3].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[3].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[4].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[4].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[4].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[5].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[5].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[5].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[6].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[6].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[6].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[7].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[7].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[7].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[8].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[8].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[8].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[9].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[9].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[9].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[10].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[10].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[10].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[11].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[11].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[11].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[12].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[12].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[12].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[13].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[13].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[13].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[14].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[14].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[14].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[15].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[15].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[15].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[16].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[16].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[16].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[17].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[17].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[17].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[18].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[18].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[18].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[19].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[19].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[19].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[20].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[20].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[20].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[21].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[21].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[21].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[22].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[22].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[22].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[23].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[23].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[23].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/\column[24].dsp_en " type="logic">
+         <obj_property name="ElementShortName">\column[24].dsp_en </obj_property>
+         <obj_property name="ObjectShortName">\column[24].dsp_en </obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/s_axis_divisor_tvalid" type="logic">
+         <obj_property name="ElementShortName">s_axis_divisor_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_divisor_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/m_axis_dout_tdata_x" type="array">
+         <obj_property name="ElementShortName">m_axis_dout_tdata_x[39:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_dout_tdata_x[39:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/m_axis_dout_tdata_y" type="array">
+         <obj_property name="ElementShortName">m_axis_dout_tdata_y[39:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_dout_tdata_y[39:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/start_div_rep_strb" type="array">
+         <obj_property name="ElementShortName">start_div_rep_strb[24:0]</obj_property>
+         <obj_property name="ObjectShortName">start_div_rep_strb[24:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/start_div_rep" type="array">
+         <obj_property name="ElementShortName">start_div_rep[24:0]</obj_property>
+         <obj_property name="ObjectShortName">start_div_rep[24:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_Ix" type="array">
+         <obj_property name="ElementShortName">sum_Ix[0:24][29:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_Ix[0:24][29:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_Iy" type="array">
+         <obj_property name="ElementShortName">sum_Iy[0:24][29:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_Iy[0:24][29:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I" type="array">
+         <obj_property name="ElementShortName">sum_I[0:24][18:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I[0:24][18:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/s_axis_divider_data_tvalid" type="logic">
+         <obj_property name="ElementShortName">s_axis_divider_data_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_divider_data_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_Ix_div_buf" type="array">
+         <obj_property name="ElementShortName">sum_Ix_div_buf[29:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_Ix_div_buf[29:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_Iy_div_buf" type="array">
+         <obj_property name="ElementShortName">sum_Iy_div_buf[29:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_Iy_div_buf[29:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/sum_I_div_buf" type="array">
+         <obj_property name="ElementShortName">sum_I_div_buf[18:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_I_div_buf[18:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Xc" type="array">
+         <obj_property name="ElementShortName">Xc[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Xc[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF0080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Yc" type="array">
+         <obj_property name="ElementShortName">Yc[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Yc[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF0080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Xc_frac" type="array">
+         <obj_property name="ElementShortName">Xc_frac[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Xc_frac[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Yc_frac" type="array">
+         <obj_property name="ElementShortName">Yc_frac[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Yc_frac[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/start_divider" type="logic">
+         <obj_property name="ElementShortName">start_divider</obj_property>
+         <obj_property name="ObjectShortName">start_divider</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/start_divider_del" type="logic">
+         <obj_property name="ElementShortName">start_divider_del</obj_property>
+         <obj_property name="ObjectShortName">start_divider_del</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/spot_id" type="array">
+         <obj_property name="ElementShortName">spot_id[4:0]</obj_property>
+         <obj_property name="ObjectShortName">spot_id[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/q_group" type="array">
+         <obj_property name="ElementShortName">q_group[0:24]</obj_property>
+         <obj_property name="ObjectShortName">q_group[0:24]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/s_axis_divisor_tready_x_rep" type="array">
+         <obj_property name="ElementShortName">s_axis_divisor_tready_x_rep[24:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_divisor_tready_x_rep[24:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/set_coor" type="array">
+         <obj_property name="ElementShortName">set_coor[39:0]</obj_property>
+         <obj_property name="ObjectShortName">set_coor[39:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Xc_wr_done" type="logic">
+         <obj_property name="ElementShortName">Xc_wr_done</obj_property>
+         <obj_property name="ObjectShortName">Xc_wr_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Yc_wr_done" type="logic">
+         <obj_property name="ElementShortName">Yc_wr_done</obj_property>
+         <obj_property name="ObjectShortName">Yc_wr_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Pclk_x4_shifted" type="logic">
+         <obj_property name="ElementShortName">Pclk_x4_shifted</obj_property>
+         <obj_property name="ObjectShortName">Pclk_x4_shifted</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/set_vaild" type="logic">
+         <obj_property name="ElementShortName">set_vaild</obj_property>
+         <obj_property name="ObjectShortName">set_vaild</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/m_axis_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_tdata[39:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tdata[39:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/s_axis_tlast" type="logic">
+         <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/s_axis_tlast_del" type="logic">
+         <obj_property name="ElementShortName">s_axis_tlast_del</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tlast_del</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/Y_coor" type="array">
+         <obj_property name="ElementShortName">Y_coor[0:24][9:0]</obj_property>
+         <obj_property name="ObjectShortName">Y_coor[0:24][9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor" type="array">
+         <obj_property name="ElementShortName">X_coor[0:24][0:24][10:0]</obj_property>
+         <obj_property name="ObjectShortName">X_coor[0:24][0:24][10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[0]" type="array">
+            <obj_property name="ElementShortName">[0][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[1]" type="array">
+            <obj_property name="ElementShortName">[1][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[2]" type="array">
+            <obj_property name="ElementShortName">[2][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[3]" type="array">
+            <obj_property name="ElementShortName">[3][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[4]" type="array">
+            <obj_property name="ElementShortName">[4][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[5]" type="array">
+            <obj_property name="ElementShortName">[5][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[6]" type="array">
+            <obj_property name="ElementShortName">[6][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[7]" type="array">
+            <obj_property name="ElementShortName">[7][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[8]" type="array">
+            <obj_property name="ElementShortName">[8][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[9]" type="array">
+            <obj_property name="ElementShortName">[9][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[10]" type="array">
+            <obj_property name="ElementShortName">[10][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[11]" type="array">
+            <obj_property name="ElementShortName">[11][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[12]" type="array">
+            <obj_property name="ElementShortName">[12][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[13]" type="array">
+            <obj_property name="ElementShortName">[13][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[14]" type="array">
+            <obj_property name="ElementShortName">[14][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[15]" type="array">
+            <obj_property name="ElementShortName">[15][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[16]" type="array">
+            <obj_property name="ElementShortName">[16][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[17]" type="array">
+            <obj_property name="ElementShortName">[17][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[18]" type="array">
+            <obj_property name="ElementShortName">[18][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[19]" type="array">
+            <obj_property name="ElementShortName">[19][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[20]" type="array">
+            <obj_property name="ElementShortName">[20][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[21]" type="array">
+            <obj_property name="ElementShortName">[21][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[22]" type="array">
+            <obj_property name="ElementShortName">[22][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[23]" type="array">
+            <obj_property name="ElementShortName">[23][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/X_coor[24]" type="array">
+            <obj_property name="ElementShortName">[24][0:24][10:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][0:24][10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_Y_arr" type="array">
+         <obj_property name="ElementShortName">cnt_Y_arr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_Y_arr[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/cnt_X_arr" type="array">
+         <obj_property name="ElementShortName">cnt_X_arr[0:24][4:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_X_arr[0:24][4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/locked" type="logic">
+         <obj_property name="ElementShortName">locked</obj_property>
+         <obj_property name="ObjectShortName">locked</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/s_axis_divisor_tready_x" type="logic">
+         <obj_property name="ElementShortName">s_axis_divisor_tready_x</obj_property>
+         <obj_property name="ObjectShortName">s_axis_divisor_tready_x</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/s_axis_dividend_tready_x" type="logic">
+         <obj_property name="ElementShortName">s_axis_dividend_tready_x</obj_property>
+         <obj_property name="ObjectShortName">s_axis_dividend_tready_x</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/m_axis_dout_tvalid_x" type="logic">
+         <obj_property name="ElementShortName">m_axis_dout_tvalid_x</obj_property>
+         <obj_property name="ObjectShortName">m_axis_dout_tvalid_x</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/m_axis_dout_tvalid_y" type="logic">
+         <obj_property name="ElementShortName">m_axis_dout_tvalid_y</obj_property>
+         <obj_property name="ObjectShortName">m_axis_dout_tvalid_y</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/s_axis_divisor_tready_y" type="logic">
+         <obj_property name="ElementShortName">s_axis_divisor_tready_y</obj_property>
+         <obj_property name="ObjectShortName">s_axis_divisor_tready_y</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/s_axis_dividend_tready_y" type="logic">
+         <obj_property name="ElementShortName">s_axis_dividend_tready_y</obj_property>
+         <obj_property name="ObjectShortName">s_axis_dividend_tready_y</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/m_axis_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/s_axis_tready" type="logic">
+         <obj_property name="ElementShortName">s_axis_tready</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/max_number_rows" type="array">
+         <obj_property name="ElementShortName">max_number_rows[31:0]</obj_property>
+         <obj_property name="ObjectShortName">max_number_rows[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/max_number_columns" type="array">
+         <obj_property name="ElementShortName">max_number_columns[31:0]</obj_property>
+         <obj_property name="ObjectShortName">max_number_columns[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/focal_width" type="array">
+         <obj_property name="ElementShortName">focal_width[31:0]</obj_property>
+         <obj_property name="ObjectShortName">focal_width[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_ADC_readout/focal_height" type="array">
+         <obj_property name="ElementShortName">focal_height[31:0]</obj_property>
+         <obj_property name="ObjectShortName">focal_height[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group893" type="group">
+      <obj_property name="label">top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/top/clk_in200_p" type="logic">
+         <obj_property name="ElementShortName">clk_in200_p</obj_property>
+         <obj_property name="ObjectShortName">clk_in200_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/clk_in200_n" type="logic">
+         <obj_property name="ElementShortName">clk_in200_n</obj_property>
+         <obj_property name="ObjectShortName">clk_in200_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/mii_tx_clk" type="logic">
+         <obj_property name="ElementShortName">mii_tx_clk</obj_property>
+         <obj_property name="ObjectShortName">mii_tx_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/mii_txd" type="array">
+         <obj_property name="ElementShortName">mii_txd[3:0]</obj_property>
+         <obj_property name="ObjectShortName">mii_txd[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/mii_tx_en" type="logic">
+         <obj_property name="ElementShortName">mii_tx_en</obj_property>
+         <obj_property name="ObjectShortName">mii_tx_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/mii_rx_clk" type="logic">
+         <obj_property name="ElementShortName">mii_rx_clk</obj_property>
+         <obj_property name="ObjectShortName">mii_rx_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/mii_rxd" type="array">
+         <obj_property name="ElementShortName">mii_rxd[3:0]</obj_property>
+         <obj_property name="ObjectShortName">mii_rxd[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/mii_rx_dv" type="logic">
+         <obj_property name="ElementShortName">mii_rx_dv</obj_property>
+         <obj_property name="ObjectShortName">mii_rx_dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/mii_rx_er" type="logic">
+         <obj_property name="ElementShortName">mii_rx_er</obj_property>
+         <obj_property name="ObjectShortName">mii_rx_er</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/refclk" type="logic">
+         <obj_property name="ElementShortName">refclk</obj_property>
+         <obj_property name="ObjectShortName">refclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/mii_rst_n" type="logic">
+         <obj_property name="ElementShortName">mii_rst_n</obj_property>
+         <obj_property name="ObjectShortName">mii_rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/CH_p" type="array">
+         <obj_property name="ElementShortName">CH_p[79:0]</obj_property>
+         <obj_property name="ObjectShortName">CH_p[79:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/CH_n" type="array">
+         <obj_property name="ElementShortName">CH_n[79:0]</obj_property>
+         <obj_property name="ObjectShortName">CH_n[79:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/Pclk_p" type="logic">
+         <obj_property name="ElementShortName">Pclk_p</obj_property>
+         <obj_property name="ObjectShortName">Pclk_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/Pclk_n" type="logic">
+         <obj_property name="ElementShortName">Pclk_n</obj_property>
+         <obj_property name="ObjectShortName">Pclk_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/clk_lux" type="logic">
+         <obj_property name="ElementShortName">clk_lux</obj_property>
+         <obj_property name="ObjectShortName">clk_lux</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/clk133" type="logic">
+         <obj_property name="ElementShortName">clk133</obj_property>
+         <obj_property name="ObjectShortName">clk133</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/st_readb_n" type="logic">
+         <obj_property name="ElementShortName">st_readb_n</obj_property>
+         <obj_property name="ObjectShortName">st_readb_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/st_readt_n" type="logic">
+         <obj_property name="ElementShortName">st_readt_n</obj_property>
+         <obj_property name="ObjectShortName">st_readt_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/st_rowb_n" type="logic">
+         <obj_property name="ElementShortName">st_rowb_n</obj_property>
+         <obj_property name="ObjectShortName">st_rowb_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/st_rowt_n" type="logic">
+         <obj_property name="ElementShortName">st_rowt_n</obj_property>
+         <obj_property name="ObjectShortName">st_rowt_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/clk25" type="logic">
+         <obj_property name="ElementShortName">clk25</obj_property>
+         <obj_property name="ObjectShortName">clk25</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/clk133_shifted" type="logic">
+         <obj_property name="ElementShortName">clk133_shifted</obj_property>
+         <obj_property name="ObjectShortName">clk133_shifted</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/locked" type="logic">
+         <obj_property name="ElementShortName">locked</obj_property>
+         <obj_property name="ObjectShortName">locked</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/clk_in200" type="logic">
+         <obj_property name="ElementShortName">clk_in200</obj_property>
+         <obj_property name="ObjectShortName">clk_in200</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/s_axis_tdata_udp" type="array">
+         <obj_property name="ElementShortName">s_axis_tdata_udp[7:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tdata_udp[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/row_address" type="array">
+         <obj_property name="ElementShortName">row_address[8:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/clk200" type="logic">
+         <obj_property name="ElementShortName">clk200</obj_property>
+         <obj_property name="ObjectShortName">clk200</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/clk300" type="logic">
+         <obj_property name="ElementShortName">clk300</obj_property>
+         <obj_property name="ObjectShortName">clk300</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/clk_out_532_sim" type="logic">
+         <obj_property name="ElementShortName">clk_out_532_sim</obj_property>
+         <obj_property name="ObjectShortName">clk_out_532_sim</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/s_axis_tvalid_udp" type="logic">
+         <obj_property name="ElementShortName">s_axis_tvalid_udp</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tvalid_udp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/s_axis_tready_udp" type="logic">
+         <obj_property name="ElementShortName">s_axis_tready_udp</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tready_udp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/s_axis_tlast_udp" type="logic">
+         <obj_property name="ElementShortName">s_axis_tlast_udp</obj_property>
+         <obj_property name="ObjectShortName">s_axis_tlast_udp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/udp_tx_tuser" type="logic">
+         <obj_property name="ElementShortName">udp_tx_tuser</obj_property>
+         <obj_property name="ObjectShortName">udp_tx_tuser</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/clk_read_fifo" type="logic">
+         <obj_property name="ElementShortName">clk_read_fifo</obj_property>
+         <obj_property name="ObjectShortName">clk_read_fifo</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/sending_data_active" type="logic">
+         <obj_property name="ElementShortName">sending_data_active</obj_property>
+         <obj_property name="ObjectShortName">sending_data_active</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/max_number_rows" type="array">
+         <obj_property name="ElementShortName">max_number_rows[31:0]</obj_property>
+         <obj_property name="ObjectShortName">max_number_rows[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/max_number_columns" type="array">
+         <obj_property name="ElementShortName">max_number_columns[31:0]</obj_property>
+         <obj_property name="ObjectShortName">max_number_columns[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group499" type="group">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/clk_in200_p" type="logic">
+         <obj_property name="ElementShortName">clk_in200_p</obj_property>
+         <obj_property name="ObjectShortName">clk_in200_p</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/clk_in200_n" type="logic">
+         <obj_property name="ElementShortName">clk_in200_n</obj_property>
+         <obj_property name="ObjectShortName">clk_in200_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/mii_tx_clk" type="logic">
+         <obj_property name="ElementShortName">mii_tx_clk</obj_property>
+         <obj_property name="ObjectShortName">mii_tx_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/mii_rx_clk" type="logic">
+         <obj_property name="ElementShortName">mii_rx_clk</obj_property>
+         <obj_property name="ObjectShortName">mii_rx_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CH_p" type="array">
+         <obj_property name="ElementShortName">CH_p[79:0]</obj_property>
+         <obj_property name="ObjectShortName">CH_p[79:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/CH_n" type="array">
+         <obj_property name="ElementShortName">CH_n[79:0]</obj_property>
+         <obj_property name="ObjectShortName">CH_n[79:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Pclk_p" type="logic">
+         <obj_property name="ElementShortName">Pclk_p</obj_property>
+         <obj_property name="ObjectShortName">Pclk_p</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/data_clk" type="logic">
+         <obj_property name="ElementShortName">data_clk</obj_property>
+         <obj_property name="ObjectShortName">data_clk</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/row_address" type="array">
+         <obj_property name="ElementShortName">row_address[8:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/clk_lux" type="logic">
+         <obj_property name="ElementShortName">clk_lux</obj_property>
+         <obj_property name="ObjectShortName">clk_lux</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/clk_out_532_sim" type="logic">
+         <obj_property name="ElementShortName">clk_out_532_sim</obj_property>
+         <obj_property name="ObjectShortName">clk_out_532_sim</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/row_address_top" type="array">
+         <obj_property name="ElementShortName">row_address_top[8:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_top[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/row_address_bot" type="array">
+         <obj_property name="ElementShortName">row_address_bot[8:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address_bot[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/cnt_bot_Pclk" type="array">
+         <obj_property name="ElementShortName">cnt_bot_Pclk[9:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bot_Pclk[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/cnt_top_Pclk" type="array">
+         <obj_property name="ElementShortName">cnt_top_Pclk[9:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_top_Pclk[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/enable_cnt_delay_bot" type="array">
+         <obj_property name="ElementShortName">enable_cnt_delay_bot[1:0]</obj_property>
+         <obj_property name="ObjectShortName">enable_cnt_delay_bot[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/enable_cnt_delay_top" type="array">
+         <obj_property name="ElementShortName">enable_cnt_delay_top[1:0]</obj_property>
+         <obj_property name="ObjectShortName">enable_cnt_delay_top[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/cnt_delay_bot" type="array">
+         <obj_property name="ElementShortName">cnt_delay_bot[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_delay_bot[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/cnt_delay_top" type="array">
+         <obj_property name="ElementShortName">cnt_delay_top[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_delay_top[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/read_bot_locked" type="logic">
+         <obj_property name="ElementShortName">read_bot_locked</obj_property>
+         <obj_property name="ObjectShortName">read_bot_locked</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/read_top_locked" type="logic">
+         <obj_property name="ElementShortName">read_top_locked</obj_property>
+         <obj_property name="ObjectShortName">read_top_locked</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/enable_read_bot" type="logic">
+         <obj_property name="ElementShortName">enable_read_bot</obj_property>
+         <obj_property name="ObjectShortName">enable_read_bot</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/enable_read_top" type="logic">
+         <obj_property name="ElementShortName">enable_read_top</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/enable_read_bot_del" type="logic">
+         <obj_property name="ElementShortName">enable_read_bot_del</obj_property>
+         <obj_property name="ObjectShortName">enable_read_bot_del</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/enable_read_top_del" type="logic">
+         <obj_property name="ElementShortName">enable_read_top_del</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top_del</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/enable_read_top_del2" type="logic">
+         <obj_property name="ElementShortName">enable_read_top_del2</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top_del2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/enable_read_top_del3" type="logic">
+         <obj_property name="ElementShortName">enable_read_top_del3</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top_del3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/enable_read_bot_strb" type="logic">
+         <obj_property name="ElementShortName">enable_read_bot_strb</obj_property>
+         <obj_property name="ObjectShortName">enable_read_bot_strb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/enable_read_bot_strb_del" type="logic">
+         <obj_property name="ElementShortName">enable_read_bot_strb_del</obj_property>
+         <obj_property name="ObjectShortName">enable_read_bot_strb_del</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/enable_read_top_strb" type="logic">
+         <obj_property name="ElementShortName">enable_read_top_strb</obj_property>
+         <obj_property name="ObjectShortName">enable_read_top_strb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/read_ram_b_en" type="logic">
+         <obj_property name="ElementShortName">read_ram_b_en</obj_property>
+         <obj_property name="ObjectShortName">read_ram_b_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/read_finished" type="logic">
+         <obj_property name="ElementShortName">read_finished</obj_property>
+         <obj_property name="ObjectShortName">read_finished</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/cnt_D_bot" type="array">
+         <obj_property name="ElementShortName">cnt_D_bot[1:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_D_bot[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/cnt_D_top" type="array">
+         <obj_property name="ElementShortName">cnt_D_top[1:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_D_top[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/cnt_top_Pclk_real" type="array">
+         <obj_property name="ElementShortName">cnt_top_Pclk_real[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_top_Pclk_real[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/cnt_bot_Pclk_real" type="array">
+         <obj_property name="ElementShortName">cnt_bot_Pclk_real[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bot_Pclk_real[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/cnt_top_Pclk_real_shifted" type="array">
+         <obj_property name="ElementShortName">cnt_top_Pclk_real_shifted[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_top_Pclk_real_shifted[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/cnt_bot_Pclk_real_shifted" type="array">
+         <obj_property name="ElementShortName">cnt_bot_Pclk_real_shifted[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bot_Pclk_real_shifted[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Pclk_n_real" type="logic">
+         <obj_property name="ElementShortName">Pclk_n_real</obj_property>
+         <obj_property name="ObjectShortName">Pclk_n_real</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/j" type="array">
+         <obj_property name="ElementShortName">j[31:0]</obj_property>
+         <obj_property name="ObjectShortName">j[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/ST0" type="array">
+         <obj_property name="ElementShortName">ST0[0:79]</obj_property>
+         <obj_property name="ObjectShortName">ST0[0:79]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/ST1" type="array">
+         <obj_property name="ElementShortName">ST1[0:79]</obj_property>
+         <obj_property name="ObjectShortName">ST1[0:79]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/st_readb_n" type="logic">
+         <obj_property name="ElementShortName">st_readb_n</obj_property>
+         <obj_property name="ObjectShortName">st_readb_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/st_readt_n" type="logic">
+         <obj_property name="ElementShortName">st_readt_n</obj_property>
+         <obj_property name="ObjectShortName">st_readt_n</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group971" type="group">
+      <obj_property name="label">control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/clk133" type="logic">
+         <obj_property name="ElementShortName">clk133</obj_property>
+         <obj_property name="ObjectShortName">clk133</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/row_address" type="array">
+         <obj_property name="ElementShortName">row_address[8:0]</obj_property>
+         <obj_property name="ObjectShortName">row_address[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/st_rowb_n" type="logic">
+         <obj_property name="ElementShortName">st_rowb_n</obj_property>
+         <obj_property name="ObjectShortName">st_rowb_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/st_rowt_n" type="logic">
+         <obj_property name="ElementShortName">st_rowt_n</obj_property>
+         <obj_property name="ObjectShortName">st_rowt_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/st_readb_n" type="logic">
+         <obj_property name="ElementShortName">st_readb_n</obj_property>
+         <obj_property name="ObjectShortName">st_readb_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/st_readt_n" type="logic">
+         <obj_property name="ElementShortName">st_readt_n</obj_property>
+         <obj_property name="ObjectShortName">st_readt_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/TX_n" type="logic">
+         <obj_property name="ElementShortName">TX_n</obj_property>
+         <obj_property name="ObjectShortName">TX_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/TX2_n" type="logic">
+         <obj_property name="ElementShortName">TX2_n</obj_property>
+         <obj_property name="ObjectShortName">TX2_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/PD_n" type="logic">
+         <obj_property name="ElementShortName">PD_n</obj_property>
+         <obj_property name="ObjectShortName">PD_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/PRST_n" type="logic">
+         <obj_property name="ElementShortName">PRST_n</obj_property>
+         <obj_property name="ObjectShortName">PRST_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/TX2_enable" type="logic">
+         <obj_property name="ElementShortName">TX2_enable</obj_property>
+         <obj_property name="ObjectShortName">TX2_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/sending_data_active" type="logic">
+         <obj_property name="ElementShortName">sending_data_active</obj_property>
+         <obj_property name="ObjectShortName">sending_data_active</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/cnt_clk" type="array">
+         <obj_property name="ElementShortName">cnt_clk[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_clk[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/cnt_inter_readout_gap" type="array">
+         <obj_property name="ElementShortName">cnt_inter_readout_gap[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_inter_readout_gap[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/exposure" type="logic">
+         <obj_property name="ElementShortName">exposure</obj_property>
+         <obj_property name="ObjectShortName">exposure</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/inter_readout_gap" type="logic">
+         <obj_property name="ElementShortName">inter_readout_gap</obj_property>
+         <obj_property name="ObjectShortName">inter_readout_gap</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/inter_readout_gap_del" type="logic">
+         <obj_property name="ElementShortName">inter_readout_gap_del</obj_property>
+         <obj_property name="ObjectShortName">inter_readout_gap_del</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/inter_readout_gap_del2" type="logic">
+         <obj_property name="ElementShortName">inter_readout_gap_del2</obj_property>
+         <obj_property name="ObjectShortName">inter_readout_gap_del2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/inter_readout_gap_del3" type="logic">
+         <obj_property name="ElementShortName">inter_readout_gap_del3</obj_property>
+         <obj_property name="ObjectShortName">inter_readout_gap_del3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/inter_readout_gap_del4" type="logic">
+         <obj_property name="ElementShortName">inter_readout_gap_del4</obj_property>
+         <obj_property name="ObjectShortName">inter_readout_gap_del4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/inter_readout_gap_strb" type="logic">
+         <obj_property name="ElementShortName">inter_readout_gap_strb</obj_property>
+         <obj_property name="ObjectShortName">inter_readout_gap_strb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/top/LUX13HS_control/enable_readout" type="logic">
+         <obj_property name="ElementShortName">enable_readout</obj_property>
+         <obj_property name="ObjectShortName">enable_readout</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
